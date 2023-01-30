@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #5c75a8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.collection-container {
+  border: 6px solid rgb(0, 255, 136);
+  padding: 32px;
+}
+
+.collection-item {
+  border: 2px solid rgb(200, 200, 90);
+  border-radius: 8px;
+  width: 600px;
+  margin-top: 16px;
+}
+
+.App-nav a{
+  padding: 0px 20px 5px 20px; 
+  background-color: rgb(114, 170, 180);
+  text-decoration: none;
+  color: blanchedalmond;
+  line-height:1;
+  vertical-align: middle;
+  margin-top: 20px;
+  font-size: 1.3em;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.App-nav a:hover{
+  color: rgb(139, 186, 194);
+  background-color: rgb(247, 218, 174);
+}
+
+.App-home {
+  padding: 10px 20px 5px 20px; 
+  color: blanchedalmond;
+  line-height:1;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.App-table {
+  vertical-align: middle;
+  padding: 10px 20px 5px 20px; 
+  color: rgb(255, 255, 255);
+  line-height:1;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+
+.App-table-head {
+  background-color:rgb(139, 186, 194);
+  border: 2px solid black;
+  padding: 0px 20px 5px 20px; 
+  line-height:1;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.App-row {
+  background-color:rgb(139, 186, 194);
+  border: 2px solid hsl(0, 0%, 0%);
+  padding: 0px 20px 5px 20px; 
+  line-height:1;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.App-tut {
+  padding: 10px 20px 5px 20px; 
+  color: rgb(0, 0, 0);
+  line-height:1;
+  vertical-align: text-top;
+  align-content: left;
+  position:relative;
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.App-biology {
+  color:rgb(0, 255, 136);
+}
+
+.App-history {
+  color: coral;
+}
