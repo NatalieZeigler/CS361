@@ -13,3 +13,5 @@ GET http://localhost:3000/questions
 GET http://localhost:3000/questions/[id]
 
 If connection is succesful, running the above get requests will receive a response and display the database tables as json. 
+
+![UML](https://user-images.githubusercontent.com/102495067/218599857-2547a252-22f8-40b3-b512-5b02575c86d2.JPG)
