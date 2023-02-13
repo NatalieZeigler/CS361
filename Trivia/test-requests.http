@@ -1,0 +1,72 @@
+### Request 1: Create a question
+POST http://localhost:3000/questions HTTP/1.1
+content-type: application/json
+
+{
+    "questionText": "An average human performs what basic eye function about 20 times a minute, or over ten million times a year? At year's end, your eye must be really moist?",
+    "viewed": true
+}
+
+### Request 2: Create a question
+POST http://localhost:3000/questions HTTP/1.1
+content-type: application/json
+
+{
+    "questionText": "Twenty percent of the oxygen in the Earth's atmosphere is provided exclusively by what large rainforest?",
+    "viewed": true
+}
+
+### Request 3: Create a question
+POST http://localhost:3000/questions HTTP/1.1
+content-type: application/json
+
+{
+    "questionText": "Your heart is nestled in your chest between the two halves of what other organ?",
+    "viewed": true
+}
+
+### Request 4: Retrieve should return the questions we have created
+GET http://localhost:3000/questions HTTP/1.1
+
+### Request 5: Retrieve a specific question by ID
+GET http://localhost:3000/questions/63e2c9b52f9354b92ff8cbaa HTTP/1.1
+
+
+### Request 6: Update question by specific ID 
+PUT http://localhost:3000/questions/63e2c9b62f9354b92ff8cbac HTTP/1.1
+content-type: application/json
+
+{
+   "questionText": "Test test test 2 - 3?",
+    "viewed": false
+}
+
+### Request 7: Delete a specific question by ID
+DELETE http://localhost:3000/questions/63e2c62fb1cdea007923274f HTTP/1.1
+
+### Request 8: Create a question with viewed as false 
+POST http://localhost:3000/questions HTTP/1.1
+content-type: application/json
+
+{
+    "questionText": "An anoxic environment wouldn't be great for humans, but certain organisms thrive in them. Anoxic means that which element needed by most life to survive is absent?",
+    "viewed": false
+}
+
+### Request 9: Create a question with viewed as false 
+POST http://localhost:3000/questions HTTP/1.1
+content-type: application/json
+
+{
+    "questionText": "Strangely enough, the Guinness Book of World Records has an entry for the 'fastest wing beat of a bird' and the record holder has an astonishing 200 beats/flaps per SECOND. This record-holder is the ruby-throated variety of what type of bird?",
+    "viewed": false
+}
+
+### Request 10: Create a question with viewed as false 
+POST http://localhost:3000/questions HTTP/1.1
+content-type: application/json
+
+{
+    "questionText": "Testing 1 2 ?",
+    "viewed": true
+}
